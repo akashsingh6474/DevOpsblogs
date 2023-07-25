@@ -19,7 +19,7 @@ Git is a distributed version control system used for tracking changes in source 
 
 Here are some key reasons why Git is important:
 
-**📌Version Control.**
+### **📌Version Control.**
 
 It is distributed control system and everyone has a local copy or clone of the file main repository i.e. everyone maintains a local repository of their own which contains all the files & metadata present in the main repository.
 
@@ -37,7 +37,7 @@ Git allows developers to create separate brach and features on projects and afte
 
 Git makes it easy to conduct code reviews, where team members can review each other's changes before merging them into the main branch. Code reviews help maintain code quality, catch errors, and ensure that best practices are followed.
 
-### 🐙difference between Git and GitHub?🐈‍⬛
+### **🐙difference between Git and GitHub?🐈‍⬛**
 
 **🐙Git** is a distributed version control system used for tracking changes in source code during software development. It was created by Linus Torvalds in 2005 and has since become one of the most widely used version control systems in the world. Git is open-source, which means its source code is freely available for anyone to use, modify, and distribute. Everyone maintains a local repository of their own which contains all the files & metadata present main repository.
 
@@ -47,7 +47,7 @@ Git makes it easy to conduct code reviews, where team members can review each ot
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690132699461/e00f4aee-9fdb-446c-b8f9-a703eac26c1e.png align="center")
 
-### **🛅difference between local & remote repositories🌐.**
+### 🛅difference between local & remote repositories🌐.
 
 **🛅Local Repository:** A local repository is a copy of the version control repository that resides on your local computer. When you clone or initialize a repository on your computer, you create a local copy that contains the entire version history of the project. The local repository allows you to work on the code, make changes, create new branches, and commit your changes without needing a constant internet connection.
 
@@ -55,7 +55,7 @@ Git makes it easy to conduct code reviews, where team members can review each ot
 
 It helps to work on multiple developers can work on the same project. it's helps you to collaborate with other developers with the help of remote repo you can connect with anyone globally you can contribute on open source platforms.
 
-**Task1**:
+### **Task1**:
 
 **Set your user name and email address, which will be associated with your commits.**
 
@@ -90,7 +90,7 @@ git config --list
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690214502846/6d1ae92c-0e8c-4611-9b8c-d134daf851e6.png align="center")
 
-**Task2**:
+### **Task2**:
 
 **Create a repository named "Devops" on GitHub.**
 
