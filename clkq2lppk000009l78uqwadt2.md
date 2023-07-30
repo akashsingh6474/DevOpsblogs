@@ -57,7 +57,7 @@ You can install Python in your System whether it is Windows, MacOS, ubuntu, cent
 
 ### **💻**[**Windows Installation**](https://www.python.org/downloads/)
 
-Task:
+### **Task1:**
 
 **Install Python in your respective OS, and check the version.**
 
@@ -74,6 +74,8 @@ To check the Python version
 ```bash
 python3 -- version
 ```
+
+### **Task2**:
 
 ### **📑Read about different Data Types in Python.**
 
