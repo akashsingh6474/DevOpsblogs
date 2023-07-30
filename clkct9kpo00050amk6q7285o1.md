@@ -45,7 +45,6 @@ for installing the package on ubuntu.
 
 ```bash
 sudo apt-get install package_name
-
 ```
 
 for updating the software package on Ubuntu.
@@ -191,4 +190,4 @@ It has some features for controlling services, including starting, stopping, res
     
     linkedin: [**linkedin.com/in/akash-singh-48689a176**](http://linkedin.com/in/akash-singh-48689a176)
     
-    E-mail: [**akashsingh6474@gmail.com**](mailto:akashsingh6474@gmail.com)
+    E-mail: [**akashsingh6474@gmail.com**](mailto:akashsingh6474@gmail.com)**/akashsinghtech40@gmail.com**
