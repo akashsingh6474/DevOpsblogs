@@ -1,8 +1,8 @@
 ---
-title: "Day-13 Python for DevOps Engineers"
+title: "Day-13 Python Basics for DevOps Engineers"
 datePublished: Sun Jul 30 2023 23:26:25 GMT+0000 (Coordinated Universal Time)
 cuid: clkq2lppk000009l78uqwadt2
-slug: day-13-python-for-devops-engineers
+slug: day-13-python-basics-for-devops-engineers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690756875747/4927c92c-6b87-45cd-8b18-b24162ad73a5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1690759562206/9a077fbf-6540-42a5-99d5-228f5f3c9b79.png
 tags: python, devops, 2articles1week, 90daysofdevops
