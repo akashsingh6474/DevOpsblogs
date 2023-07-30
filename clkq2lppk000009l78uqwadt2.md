@@ -59,7 +59,7 @@ You can install Python in your System whether it is Windows, MacOS, ubuntu, cent
 
 ### **Task1:**
 
-**Install Python in your respective OS, and check the version.**
+### **Install Python in your respective OS, and check the version.**
 
 ```bash
 sudo apt-get update
