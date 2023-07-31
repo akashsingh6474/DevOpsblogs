@@ -96,7 +96,27 @@ tags: linux, aws, github, git, devops
 42. top: This command is used to get the details of all active
     
 
-# **🛞Git-GitHub Commands:**
+# Hello connections ! 🌟
+
+🚀 📅 Day 11 of **#90DaysOfDevOps** Challenge 🚀by Shubham Londhe update! 💻🎯
+
+Today's topic: Git & GitHub advance use of git rebase 🎭🐈‍⬛
+
+Hey DevOps enthusiasts! 🌟 On this 11th day of our **#90DaysOfDevOps** journey,  
+let's dive into the deep git and GitHub  create new branch work on different branch use rebase and cherry-pick✨✨🧑‍💻  
+💡Introduction.  
+🕸️What is Git Stash?  
+🍒What is Cherry-pick?  
+🕸️How to resolve merge Conflicts?  
+💪Task-01: staging and some changes  
+💪Task-02 Rebase and Commit  
+💪Task 3: Cherry-picking and Optimizing Features  
+📌Conclusion:
+
+Let's engage in insightful discussions and embark on this transformative DevOps adventure together! Your contributions are pivotal to our collective growth. 🚀
+
+I would like to express my heartfelt gratitude to those who have inspired and supported me throughout my journey.  
+Pranav Jambare Arindam Naik Al Ahmed Faiyaz Rawther Prabir Kumar Mahatha Gauri yadav Deepak Matha(Gupta) Rushikesh Ghate Rushikesh Mashidkar☸☁️ ☸☁☸☁ Prasad Suman Mohan Prasad Gattewar Gurumoorthy Raghupathy Safia Khatoon Mahesh Mahajan
 
 1. git init: Initialise a local Git Repository
     
