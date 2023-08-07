@@ -62,7 +62,7 @@ yaml file use a.yml or .yml extension. it supports JSON files.
 
 It is simple to use and in the Python style. in the 3 dashes (---) is used to signal the start of a document and (...) is used to end the documents.
 
-## **Tasks with code explanation(step-wise)**
+## **Tasks:**
 
 1. Create a Dictionary in Python and write it to a JSON File.
     
