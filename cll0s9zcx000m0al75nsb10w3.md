@@ -11,6 +11,8 @@ tags: python, devops, 2articles1week, 90daysofdevops-chanllenge
 
 ### **Introduction to JSON and YAML**
 
+### **JSON:**
+
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
 <div data-node-type="callout-text">JSON stands for JavaScript Object Notation.</div>
