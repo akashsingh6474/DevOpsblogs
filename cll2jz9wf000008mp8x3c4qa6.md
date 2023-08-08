@@ -90,9 +90,53 @@ Docker's popularity has led to a rich ecosystem of tools and services, including
     
 4. **Run Your First Container:** Open your terminal and run the classic "Hello World" container:
     
+    ```bash
+    docker run hello-world
+    ```
+    
+5. Use the `docker inspect` command to view detailed information about a container or image.
+    
+    ```bash
+    docker inspect hello-world
+    ```
+    
+    ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691514842820/ad00f7df-1852-4ae8-895c-6f8f6e359ef7.png align="right")
+    
+
+1. Use the `docker port` command to list the port mappings for a container.
+    
+    ```bash
+    docker run -d -p 80:80 mynginx
+    
+    docker port mynginx
+    ```
+    
+2. Use the `docker stats` command to view resource usage statistics for one or more containers.
+    
 
 ```bash
-docker run hello-world
+docker stats mynginx
+```
+
+1. Use the **docker top** command to view the processes running inside a container.
+    
+
+```bash
+docker top mynginx
+```
+
+1. Use the `docker save` command to save an image to a tar archive.
+    
+
+```bash
+docker save -o nginx_image.tar nginx
+```
+
+1. Use the `docker load` command to load an image from a tar archive.
+    
+
+```bash
+docker load -i nginx_image.tar
 ```
 
 ## **✅Conclusion**
