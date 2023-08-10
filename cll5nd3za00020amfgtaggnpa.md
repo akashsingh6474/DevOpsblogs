@@ -9,7 +9,7 @@ tags: docker, nodejs, devops, 2articles1week, 90daysofdevops
 
 ---
 
-### **What is Dockerfile?**
+### **🛳️What is Dockerfile?**
 
 Dockerfile is a text file that contains some set of instructions automation of Docker image creation. A Dockerfile specifies everything needed to set up an application or service within a container.
 
@@ -32,9 +32,9 @@ There are a few steps inside the Dockerfile to create a Docker image.
     * `CMD` or `ENTRYPOINT`: Defines the command or executable that will run when the container starts.
         
 
-### **Tasks**:
+### **\*️⃣Tasks**:
 
-**Create a Dockerfile for a simple web application (e.g. a Node.js or Python app)**
+**✅Create a Dockerfile for a simple web application (e.g. a Node.js or Python app)**
 
 there are a few steps to creating a Dockerfile for an application
 
@@ -46,7 +46,7 @@ there are a few steps to creating a Dockerfile for an application
     
 4. Now go inside the developer repo
     
-5. Now create Dockerfile and write a set of instrumentation that require to create a Docker image.
+5. Now create Dockerfile and write a set of instructions that require to create a Docker image.
     
     ```bash
     mkdir node-app
@@ -63,7 +63,7 @@ there are a few steps to creating a Dockerfile for an application
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691697587542/d4a4666c-4117-40e2-8c7a-de676e097c16.png align="center")
 
-**Build the image using the Dockerfile and run the container**
+**✅Build the image using the Dockerfile and run the container**
 
 1. Now after completing the Dockerfile create a Docker image
     
@@ -74,7 +74,7 @@ Docker images
 docker run -d -p 8000:8000 node-app:latest
 ```
 
-**Verify that the application is working as expected by accessing it in a web browser**
+**✅Verify that the application is working as expected by accessing it in a web browser**
 
 1. Now go to the Ec2 instance click on security click on security group
     
@@ -96,41 +96,45 @@ Now go on Google and copy your public address with port no.
 
 Congrats your application has been deployed on AWS successfully
 
-**Push the image to a public or private repository (e.g. Docker Hub )**
+**✅Push the image to a public or private repository (e.g. Docker Hub )**
 
-Follow some steps to push your image on the docker hub/registry(private)
-
-After creating a docker image.
-
-docker login
-
-enter your username and password
-
-now give the tag to your image name that you have created with the new image name that you want to show on your docker hub account.
+* Follow some steps to push your image on the docker hub/registry(private)
+    
+* After creating a docker image.
+    
+* docker login
+    
+* Enter your username and password
+    
+* Now give the tag to your image name that you have created with the new image name that you want to show on your docker hub account.
+    
 
 ```bash
 docker tag imagename dockerid/newimagename
 ```
 
-now push your image on the docker hub
+* Now push your image on the docker hub
+    
 
 ```bash
 docker push dockerid/newimagename
 ```
 
-Now you can see your image on your docker hub
+* Now you can see your image on your docker hub
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691699341409/81289680-8fec-4172-8fc8-b38a1070d71f.png align="center")
 
 you can make your docker image private:
 
-Click on the image that you want to do private
-
-click on public then click on setting Go on visibility mode then you can make your image privately
+* Click on the image that you want to do private
+    
+* click on public then click on setting Go on visibility mode then you can make your image privately
+    
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1691699515382/478198c4-827b-4452-82f3-1b198e562c15.png align="center")
 
-**Create a Dockerfile for a simple web application Django Python app**
+**✅Create a Dockerfile for a simple web application Django Python app**
 
 there are a few steps to creating a Dockerfile for an application
 
@@ -155,7 +159,8 @@ there are a few steps to creating a Dockerfile for an application
 
 ! Remember that when you create Dockerfile write <mark>D </mark> always capital
 
-Now after completing the Dockerfile create a Docker image
+* Now after completing the Dockerfile create a Docker image
+    
 
 ```bash
 docker build . -t django-app:latest
