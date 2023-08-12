@@ -182,6 +182,8 @@ Thank You! Stay Connected ☁️👩‍💻🌈
 
 Contact me at :
 
-LinkedIn: [**linkedin.com/in/akash-singh-48689a176**](http://linkedin.com/in/akash-singh-48689a176)
+LinkedIn:[Akash Singh](https://in.linkedin.com/in/akash-singh-70o?trk=profile-badge)
+
+[**linkedin.com/in/akash-singh-48689a176**](http://linkedin.com/in/akash-singh-48689a176)
 
 E-mail: **akashsingh6474@gmail.com**
