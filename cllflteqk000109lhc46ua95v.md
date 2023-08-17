@@ -9,7 +9,7 @@ tags: docker, devops, 2articles1week, 90daysofdevops, docker-cheat-sheet
 
 ---
 
-## **Docker Commands Cheat Sheet**
+## **⚓🛞Docker Commands Cheat Sheet**
 
 Now that you know how Docker functions, let’s look at some of the most popular Docker command examples.
 
@@ -97,7 +97,7 @@ docker ps -a
 to see the running container
 
 ```bash
-docker ps 
+docker ps
 ```
 
 To delete the container
@@ -162,7 +162,7 @@ FROM OS NAME
 Volume["/myvolume"]
 ```
 
-create an image from dockerfile
+create an image from Dockerfile
 
 ```bash
 docker build . -t <image_name>
@@ -175,6 +175,8 @@ docker run -it --name <container_name> <image_name>
 ```
 
 ### **Docker Volume Commands.**
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1692305807613/9551cef9-63c5-44f3-9680-bdc9fef7e755.gif align="center")
 
 to see all the volumes
 
@@ -212,20 +214,36 @@ To check container details
 docker container inspect <container_name>
 ```
 
-### **Registry Commands**
+### **☁️Registry Commands**
 
 If you need to interact with Docker Hub, use the following commands:
 
 <table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Command</strong></p></td><td colspan="1" rowspan="1"><p><strong>Explanation</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>docker login</p></td><td colspan="1" rowspan="1"><p>Logs in to a registry</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker logout</p></td><td colspan="1" rowspan="1"><p>Logs out from a registry</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker pull mysql</p></td><td colspan="1" rowspan="1"><p>Pulls an image from a registry</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker push repo/ rhel-httpd:latest</p></td><td colspan="1" rowspan="1"><p>Pushes an image to a registry</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker search term</p></td><td colspan="1" rowspan="1"><p>Searches Docker Hub for images with the specified term</p></td></tr></tbody></table>
 
-### **Network Commands**
+### **🌏Network Commands**
 
 If you need to interact with the Docker network, use one of the following commands:
 
 <table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Command</strong></p></td><td colspan="1" rowspan="1"><p><strong>Explanation</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p>docker network create networkname</p></td><td colspan="1" rowspan="1"><p>Creates a new network</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker network rm networkname</p></td><td colspan="1" rowspan="1"><p>Removes a specified network</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker network ls</p></td><td colspan="1" rowspan="1"><p>Lists all networks</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker network connect networkname container</p></td><td colspan="1" rowspan="1"><p>Connects a container to a network</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker network disconnect networkname container</p></td><td colspan="1" rowspan="1"><p>Disconnects a container from a network</p></td></tr><tr><td colspan="1" rowspan="1"><p>docker network inspect networkname</p></td><td colspan="1" rowspan="1"><p>Displays detailed information about a network</p></td></tr></tbody></table>
+
+### **💡Conclusion:**
 
 Docker is a great tool for anyone willing to try out containers. The learning curve can be steep if you’re unfamiliar with container-based development. Luckily, having a cheat sheet at hand can speed up the process, as all common commands are easily reachable, and you don’t need to look them up on the internet.
 
 In this tutorial, we’ve covered the basics of Docker architecture and gone through all the basic Docker commands, all of which can be found in our downloadable Docker cheat sheet.
 
 We hope that you found this Docker tutorial useful. If you have any questions, leave them in the comments section below.
+
+Thank you for reading!
+
+Happy Learning 😊🙌
+
+Thank You! Stay Connected ☁️👩‍💻🌈
+
+Contact me at :
+
+LinkedIn: [**Akash Singh**](https://in.linkedin.com/in/akash-singh-70o?trk=profile-badge)
+
+[**linkedin.com/in/akash-singh-48689a176**](http://linkedin.com/in/akash-singh-48689a176)
+
+E-mail: [**akashsingh6474@gmail.com**](mailto:akashsingh6474@gmail.com)
