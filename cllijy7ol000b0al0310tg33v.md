@@ -3,6 +3,7 @@ title: "Day-22 : Getting Started with Jenkins 😃"
 datePublished: Sat Aug 19 2023 21:49:35 GMT+0000 (Coordinated Universal Time)
 cuid: cllijy7ol000b0al0310tg33v
 slug: day-22-getting-started-with-jenkins
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692562999109/6229a267-ec9d-4a6f-ad79-02b0b1af4f73.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1692481292855/1ace59cd-b9f1-4fec-93ec-2fc3fceb2a8a.png
 tags: devops, jenkins, cicd, 2articles1week, 90daysofdevops
 
