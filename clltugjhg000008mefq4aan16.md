@@ -3,10 +3,13 @@ title: "Day 25 Complete Jenkins CI/CD Project - Continued with Documentation"
 datePublished: Sun Aug 27 2023 19:29:14 GMT+0000 (Coordinated Universal Time)
 cuid: clltugjhg000008mefq4aan16
 slug: day-25-complete-jenkins-cicd-project-continued-with-documentation
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693164928172/2b23367e-7122-40c4-a090-8dc9de8e7cf3.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1693164916664/1289421c-4c37-42a9-adfb-e07a9e869698.png
+tags: devops, jenkins, ci-cd, 90daysofdevops
 
 ---
 
-### **Task-01:**
+### **Tasks:**
 
 * **Document the process from cloning the repository to adding webhooks, Deployment, etc. as a README, go through** [**this example**](https://github.com/LondheShubham153/fynd-my-movie/blob/master/README.md)
     
@@ -94,4 +97,53 @@ Select the event that should trigger the webhook.
 
 Save the webhook configuration.
 
-where ever we change and commit the repo it gets a green tick on the webhook configuration.
+Wherever we change and commit the repo it gets a green tick on the webhook configuration.
+
+1. ***Build Stage Configuration: Details on setting up the build stage with the required tools.***
+    
+
+* Set up the build stage in your Jenkins job to compile and package your application.
+    
+* In Execute shell add a command where Groovy syntax while writing the build script.
+    
+* Ensure that the builds worked successfully.
+    
+* Where ever we change the code from Git Hub, the webhook will trigger the Jenkins job and starts building automatically.
+    
+
+1. ***Test Stage Configuration: Description of integrating automated tests.***
+    
+
+* Integrate automated testing in the Jenkins pipeline to ensure code quality.
+    
+
+1. ***Deployment Configuration: Explanation of deploying the application.***
+    
+
+* Set up deployment to your target environment (e.g., staging, production).
+    
+
+1. ***Troubleshooting: Common issues and solutions.***
+    
+    Make sure in your security group inbound rule add Jenkins default port no. 8080 and application port no. 8000
+    
+2. ***Conclusion: Wrap-up of the documentation and future improvements.***
+    
+    By creating a new Jenkins job for your CI/CD pipeline, you automate the entire process from source code management to deployment, ensuring consistent and reliable software delivery. Jenkins orchestrates these steps based on triggers you define, providing a streamlined and efficient workflow for development and deployment.
+    
+
+So I encourage you to try this on your own and let me know in the comment section about your learning experience
+
+Thank you for reading! Your support means the world to me. Let's keep learning, growing, and making a positive impact in the tech world together.
+
+Happy Learning 😊🙌
+
+Thank You! Stay Connected ☁️👩‍💻🌈
+
+Contact me at :
+
+LinkedIn: [**Akash Singh**](https://in.linkedin.com/in/akash-singh-70o?trk=profile-badge)
+
+[**linkedin.com/in/akash-singh-48689a176**](http://linkedin.com/in/akash-singh-48689a176)
+
+E-mail: [**akashsingh6474@gmail.com**](mailto:akashsingh6474@gmail.com)
