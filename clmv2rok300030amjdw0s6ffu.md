@@ -42,19 +42,19 @@ In Jenkins, an "agent" (also known as a "node" or "slave") is a worker machine t
 5. **Scalability:** Jenkins can be set up with multiple agents, allowing you to scale your automation infrastructure as needed. You can add or remove agents to handle varying workloads.
     
 
-### **Tasks:**
+### **Task-01:**
 
 * **Create an agent by setting up a node on Jenkins**
     
-* **step1**: Launch two EC2 instances to serve as the primary **"Master"** and **"Agent."**
+* Launch two EC2 instances to serve as the primary **"Master"** and **"Agent."**
     
 * ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695411059013/5a03170f-f966-4d60-82cb-040630013737.png align="center")
     
-    **Step 2: Generate SSH keys on the “Jenkins-master” EC2 instance**
+    **Generate SSH keys on the “Jenkins-master” EC2 instance**
     
 * ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695411186552/3d781e9d-14ff-4837-b677-6c420304d0d7.png align="center")
     
-    **Step 3: Add public key from “Jenkins-master” instance to “Jenkins-agent” instance under location “.ssh/authorized\_keys”**
+    **Add public key from “Jenkins-master” instance to “Jenkins-agent” instance under location “.ssh/authorized\_keys”**
     
 * **Jenkins-master instance:**
     
@@ -65,7 +65,7 @@ In Jenkins, an "agent" (also known as a "node" or "slave") is a worker machine t
 * ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1695412320719/0558b275-1b8c-48de-9546-1ec45d049de2.png align="center")
     
 
-**Step 4: Establish an agent by configuring a node within Jenkins**
+**Establish an agent by configuring a node within Jenkins**
 
 * Start by accessing the Jenkins dashboard and select "Manage Jenkins."
     
@@ -75,12 +75,12 @@ In Jenkins, an "agent" (also known as a "node" or "slave") is a worker machine t
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693010414925/984e3285-a0d6-4fa2-8d1b-c7ac8faebba2.png?auto=compress,format&format=webp align="left")
     
-    step 7: Click on new-Node.
+    Click on new-Node.
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693010484127/e9ee1f1e-83c2-4068-afa4-b2697be6fab0.png?auto=compress,format&format=webp align="center")
     
 
-step 8: Add details to add second node, accordingly.\\
+Add details to add a second node, accordingly.\\
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693010539139/148bbcbb-9076-472f-b6e8-eaf062858c31.png?auto=compress,format&format=webp align="left")
 
@@ -90,7 +90,7 @@ step 9: Add Credentials &gt;&gt; kind: SSH with private\_key & enter the details
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693010947091/98ca01cb-2bc3-4491-854c-e1e03bf8452f.png?auto=compress,format&format=webp align="left")
 
-step 10: To enter the private\_key, In Jenkin-Master:
+To enter the private\_key, In Jenkin-Master:
 
 ```plaintext
 cd /home/ubuntu/.ssh/
@@ -105,7 +105,7 @@ Copy & Paste the Private\_key
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693011003320/5682b35d-6387-4d3b-917a-8c13784f2f01.png?auto=compress,format&format=webp align="left")
 
-step 11: Connection is Successfull
+Connection is successful
 
 # **Task-02**
 
@@ -114,11 +114,11 @@ step 11: Connection is Successfull
 * Use labels for the agent, your master server should trigger builds for the agent server.
     
 
-step 12: Now build a job, here **restrict the job to the particular agent.**
+Now build a job, here **restrict the job to the particular agent.**
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693011643254/fcea3cd1-1061-4bde-96ae-fa1aef749353.png?auto=compress,format&format=webp align="left")
 
-step 13: Build Now
+Build Now
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693011595598/84eda24d-daae-4ac1-aa2a-4086d2fef45c.png?auto=compress,format&format=webp align="left")
 
