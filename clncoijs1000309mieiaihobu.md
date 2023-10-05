@@ -9,7 +9,6 @@ tags: aws, k8s, secrets, configmap, 90daysofdevops
 
 ---
 
-###   
 What is **ConfigMaps.**
 
 In Kubernetes, a ConfigMap is a resource object that allows you to store configuration data separately from your application code. It is a key-value store where you can store configuration settings, environment variables, or any other configuration-related data that your application needs. ConfigMaps are typically used to decouple configuration from application code, making it easier to manage and update configurations without changing the code itself.
@@ -44,17 +43,16 @@ Here are some key points about Kubernetes Secrets:
     vim configMap.yml
     
 * ```plaintext
-      kind: ConfigMap
-      apiVersion: v1
-      metadata:
-        name: mysql-config
-        labels:
-          app: todo
-      data:
-        MYSQL_DB: "todo-db"
+        kind: ConfigMap
+        apiVersion: v1
+        metadata:
+          name: mysql-config
+          labels:
+            app: todo
+        data:
+          MYSQL_DB: "todo-db"
     ```
     
-
 * Apply the updated deployment using the command: `kubectl apply -f deployment.yml -n <namespace-name>`
     
 
@@ -67,7 +65,7 @@ kubectl apply -f configMap.yml
 * Verify that the ConfigMap has been created by checking the status of the ConfigMaps in your Namespace.
     
 * ```plaintext
-      kubectl get configmap
+        kubectl get configmap
     ```
     
     ## [Task 2](https://github.com/akashsingh6474/90DaysOfDevOps/blob/master/2023/day35/tasks.md#task-2)
@@ -87,14 +85,12 @@ kubectl apply -f configMap.yml
     
     We can Encode & decode the Base64 key by ourselves.
     
-
 * Apply the updated deployment using the command: `kubectl apply -f deployment.yml -n <namespace-name>`
     
-
 * Verify that the Secret has been created by checking the status of the Secrets in your Namespace.
     
 * ```plaintext
-      kubectl get secrets
+        kubectl get secrets
     ```
     
     Now update the deployment.yml file to include the configMap & Secret
