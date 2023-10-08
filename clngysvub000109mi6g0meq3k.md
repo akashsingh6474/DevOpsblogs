@@ -138,7 +138,6 @@ Click on users and click on Create User
     
     ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1696677386933/e508559a-d295-44f2-abc6-a52d7ccc7238.png align="center")
     
-
 * *Step 2: Set permissions*
     
 * Select “Attach policies directly” in the Permission Options.
