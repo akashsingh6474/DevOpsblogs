@@ -9,7 +9,7 @@ tags: aws, automation, devops, autoscaling, 90daysofdevops
 
 ---
 
-## [Automation in EC2:](https://github.com/akashsingh6474/90DaysOfDevOps/blob/master/2023/day40/tasks.md#automation-in-ec2)
+## Automation in EC2:
 
 Amazon Elastic Compute Cloud (Amazon EC2) is a fundamental service within Amazon Web Services (AWS) that provides scalable and resizable compute capacity in the cloud. Essentially, it allows users to launch and manage virtual machines (VMs), known as "instances," to run applications and workloads. EC2 instances are commonly used for a wide range of tasks, from hosting websites and applications to running complex data analysis jobs.
 
@@ -67,21 +67,21 @@ The below image depicts the lifecycle of an Instance:
     *Advanced Details: Use the following script-*
     
 * ```plaintext
-      #!/bin/bash
-      sudo apt-get update -y
-      sudo apt install openjdk-11-jre -y
-      curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
-        /usr/share/keyrings/jenkins-keyring.asc > /dev/null
-      echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-        https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
-        /etc/apt/sources.list.d/jenkins.list > /dev/null
-      sudo apt-get update
-      sudo apt-get install jenkins -y
-      sudo systemctl enable jenkins
-      sudo systemctl start jenkins
-      sudo apt-get update
-      sudo apt-get install docker.io -y
-      sudo systemctl start docker
+        #!/bin/bash
+        sudo apt-get update -y
+        sudo apt install openjdk-11-jre -y
+        curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
+          /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+        echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
+          https://pkg.jenkins.io/debian-stable binary/ | sudo tee \
+          /etc/apt/sources.list.d/jenkins.list > /dev/null
+        sudo apt-get update
+        sudo apt-get install jenkins -y
+        sudo systemctl enable jenkins
+        sudo systemctl start jenkins
+        sudo apt-get update
+        sudo apt-get install docker.io -y
+        sudo systemctl start docker
     ```
     
     Click on Create Launch Template.
