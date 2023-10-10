@@ -3,8 +3,8 @@ title: "Day 41: Setting up an Application Load Balancer with AWS EC2 🚀 ☁"
 datePublished: Tue Oct 10 2023 13:11:48 GMT+0000 (Coordinated Universal Time)
 cuid: clnkccn6q000009jqglwg12to
 slug: day-41-setting-up-an-application-load-balancer-with-aws-ec2
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696943420547/1c249b3a-29fc-4945-9e31-4b8f0c92376e.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696943497607/e07d04ed-14be-4b5c-8b51-f59e5bbc4167.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696944181840/5a9d1c5f-2b58-4600-b253-ef2fa94f9d83.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696944217335/a79e8092-7fbc-45e4-84a9-8d59a37f5993.png
 tags: cloud, aws, automation, load-balancer, 90daysofdevops
 
 ---
