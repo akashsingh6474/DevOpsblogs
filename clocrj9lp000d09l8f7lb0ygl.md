@@ -4,8 +4,8 @@ seoTitle: "AWS Commit local file to AWS code commit"
 datePublished: Mon Oct 30 2023 10:34:24 GMT+0000 (Coordinated Universal Time)
 cuid: clocrj9lp000d09l8f7lb0ygl
 slug: day-50cicd-pipeline-on-aws-part-1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698661863688/68940b88-9741-4fcb-a652-f9bf8784ffe8.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1698661903717/eb0e08af-0bf0-42c3-b79e-970af0a611d9.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698662941580/e57b0008-7ee4-44d5-90c7-d5d8c8a8b7dc.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1698662959290/62d99c8d-5ffb-496b-83a9-a58c2cbe226d.png
 tags: aws, codecommit, 90daysofdevops, awscloud
 
 ---
