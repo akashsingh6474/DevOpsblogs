@@ -107,7 +107,7 @@ sudo service codedeploy-agent status
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698689804810/4dd9367e-0fdc-4223-908a-388f68c4a325.png align="center")
 
 ```plaintext
-bash install-codedeploy_agent.sh
+bash install_codedeploy_agent.sh
 ```
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1698689926446/ad23c791-0e63-4a76-9f7e-ce19f275b0fe.png align="center")
