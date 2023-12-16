@@ -5,6 +5,7 @@ What is Terraform?"
 datePublished: Sat Dec 16 2023 18:03:31 GMT+0000 (Coordinated Universal Time)
 cuid: clq8d9v7m000908jlbnnr5kx7
 slug: day-60-terraform-what-is-terraform
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702750882563/729a662c-0aee-4bfb-875f-0d288f9a6c1d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1702749790854/386e84a8-cb02-40b9-8d4e-29ca31807e00.png
 tags: aws, terraform, infrastructure-as-code, provider, 90daysofdevops
 
