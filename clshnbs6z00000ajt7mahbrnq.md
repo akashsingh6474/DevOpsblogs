@@ -1,5 +1,5 @@
 ---
-title: "DevOps Project-1"
+title: "DevOps Project-01/02"
 datePublished: Sun Feb 11 2024 15:14:17 GMT+0000 (Coordinated Universal Time)
 cuid: clshnbs6z00000ajt7mahbrnq
 slug: devops-project-1
