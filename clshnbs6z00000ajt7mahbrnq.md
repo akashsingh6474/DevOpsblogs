@@ -3,8 +3,8 @@ title: "DevOps Project-1"
 datePublished: Sun Feb 11 2024 15:14:17 GMT+0000 (Coordinated Universal Time)
 cuid: clshnbs6z00000ajt7mahbrnq
 slug: devops-project-1
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707664110070/c562dda4-568f-46b3-ae45-223d0fc1d360.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1707664283251/ea40835a-0967-4208-977c-60d0c573d4a1.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1707670185476/201d362a-d14b-4385-ab6d-8818214fe56a.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1707670204305/9645ec19-5061-4aa8-ab7c-25fef64ca091.png
 tags: cloud, automation, devops, jenkins, cicd-cjy1vtdk2005kjjs17n8couc3, 90daysofdevops
 
 ---
